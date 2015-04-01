@@ -7,8 +7,9 @@ from BeautifulSoup import BeautifulSoup
 import urllib2 
 import pickle
 import sys
+import datetime
 
-YEAR = '2015'
+YEAR = str(datetime.datetime.now().year)
 URL_PREFIX = 'https://www.sec.gov'
 
 try:
